@@ -35,7 +35,7 @@ components:
       name: $parameters.lb-appname + "-lb"
       servicetype: $parameters.lb-service-type
       ipv46: $parameters.lb-virtual-ip
-      port: 443
+      port: 449
       lbmethod?: $parameters.lb-advanced.algorithm
       persistencetype?: $parameters.lb-advanced.persistence
       persistencebackup?: $parameters.lb-advanced.persistence-backup
