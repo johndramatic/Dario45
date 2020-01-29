@@ -50,7 +50,7 @@ components:
       - $parameters.default-lb-pool
     properties: 
       lb-appname: $parameters.appname + "-lb-default"
-      lb-virtual-port : 443
+      lb-virtual-port : 411
   - 
     name: csvserver-comp
     type: ns::csvserver
