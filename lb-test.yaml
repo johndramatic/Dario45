@@ -102,7 +102,7 @@ components:
             repeat-item: server
             properties: 
               ip: $server.ip
-              port: $server.port
+              port: 443
               weight?: $server.weight
               servicegroupname: $parent.properties.servicegroupname
       -  
