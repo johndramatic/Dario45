@@ -31,7 +31,7 @@ substitutions:
 components: 
   - 
     name: lb-comp
-    type: stlb::lb 
+    type: stlb::lb-test
     properties-default-sources:
       - $parameters
   -
